@@ -1,0 +1,16 @@
+# Ignorar directorios generados por Node.js
+node_modules/
+
+# Ignorar directorios generados por Create React App dentro de la carpeta client
+client/node_modules/
+client/build/
+client/.pnp/
+client/.pnp.js
+client/.cache/
+
+# Ignorar directorios generados por Express dentro de la carpeta server
+server/node_modules/
+
+# Ignorar directorios generados por Electron
+electron/out/
+electron/node_modules/
